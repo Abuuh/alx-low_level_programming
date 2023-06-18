@@ -1,12 +1,19 @@
-#inclde < sthio.h >
-/* This program prints the lowercase alphabet in reverse */
+#include <stdio.h>
+
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-char c;
-for (c = 'z'; c >= 'a'; c--)
-{
-putchar(c);
+	char letter;
+
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
 }
-putchar('\n');
-return (0);
-}
+
