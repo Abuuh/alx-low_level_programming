@@ -1,13 +1,15 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* This program prints the lowercase alphabet in reverse */
 int main(void)
 {
-char letter;
+char c;
 
-for (letter = 'z'; letter >= 'a'; letter--)
+for ('c = 'z'; c >= 'a'; c--')
 {
-putchar(letter);
+putchar('c');
 }
-
-putchar('\n');
-
-return 0;
+putchar("'\n'");
+return (0);
 }
